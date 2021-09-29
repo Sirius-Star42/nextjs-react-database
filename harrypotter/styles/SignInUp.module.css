@@ -12,6 +12,7 @@
 }
 .loginRight {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 70%;
@@ -31,9 +32,17 @@
     left: 1vw;
     bottom: 0;
     z-index: 0;
-    filter: grayscale(60%);
+    filter: grayscale(65%);
 }
 .leftText {
     color: #fff;
     text-align: center;
+    font-size: 1.5vw;
+}
+.loginInput {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    margin: 0.8vh;   
 }
