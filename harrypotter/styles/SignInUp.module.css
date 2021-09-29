@@ -1,0 +1,39 @@
+.mainContainer {
+    height: 100vh;
+    width: auto;
+    background-color: #212228;
+}
+.loginLeft {
+    height: 70%;
+    border-radius: 1vw 0 0 0 ;
+    background-color: #000;
+    z-index: 1;
+    filter: drop-shadow(30px 15px 50px #fff);
+}
+.loginRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    border-radius: 0 1vw 0 0 ;
+    background-color: #fff;
+}
+.logo1 {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+}
+.logo3 {
+    width: 35%;
+    position: absolute;
+    left: 1vw;
+    bottom: 0;
+    z-index: 0;
+    filter: grayscale(60%);
+}
+.leftText {
+    color: #fff;
+    text-align: center;
+}
